@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <!-- Esto es un comentario...  -->
 <html>
-    <head>
-        <title>TechShop</title>
-        <meta charset="UTF-8"/>
-        <link href="/css/estilos.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a class="logo nav-link" href="/">TechShop</a>
-                <ul class="nav-menu">
-                    <li class="nav-menu-item"><a class="nav-link menu-item" href="/Repo de Desarollo de AppsWeb/Tienda_AaronOrtizFuentes/src/main/resources/templates/ejemplo2.html">Mis Autos</a></li>
-                    <li class="nav-menu-item"><a class="nav-link menu-item" href="/Repo de Desarollo de AppsWeb/Tienda_AaronOrtizFuentes/src/main/resources/templates/multimedia.html">Multimedia</a></li>
-                    <li class="nav-menu-item"><a class="nav-link menu-item" href="/Repo de Desarrollo de AppsWeb/Tienda_AaronOrtizFuentes/src/main/resources/templates/iframes.html">iFrames</a></li>
-                </ul>
-            </nav>
-        </header>
+ <head th:replace="~{general/fragmentos :: head}"/>
+    
+        <header th:replace="~{general/fragmentos :: header}"/>
+
+        <footer th:replace="~{general/fragmentos :: footer}"/>
         <aside>
             <h1>Mis Autos</h1>
             <p>Los autos que en mi subconsiente llevo todos los dias..</p>
@@ -31,5 +20,5 @@
             Todos los Derechos Reservados TechShop 2025 &COPY;
         </footer>
 
-    </body>
+    
 </html>
