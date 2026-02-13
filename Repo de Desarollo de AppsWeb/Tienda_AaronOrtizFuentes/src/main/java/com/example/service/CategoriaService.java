@@ -5,8 +5,8 @@
 
 package com.example.service;
 
-import com.tienda_l.domain.Categoria;
-import com.tienda_l.repository.CategoriaRepository;
+import com.example.domain.Categoria;
+import com.example.repository.CategoriaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
