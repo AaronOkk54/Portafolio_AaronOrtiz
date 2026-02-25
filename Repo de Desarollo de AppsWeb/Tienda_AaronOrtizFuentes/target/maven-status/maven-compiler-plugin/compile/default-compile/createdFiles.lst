@@ -1,8 +1,7 @@
-com\example\demo\DemoApplication.class
-com\example\controller\NewClass.class
 com\example\domain\Categoria.class
 com\example\domain\Usuario.class
 com\example\domain\Rol.class
+com\example\DemoApplication.class
 com\example\repository\CategoriaRepository.class
 com\example\demo\ProjectConfig.class
 com\example\domain\Ruta.class

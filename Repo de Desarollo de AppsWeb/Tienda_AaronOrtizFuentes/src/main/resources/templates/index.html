@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <!-- Esto es un comentario...  -->
-<html>
- <head th:replace="~{general/fragmentos :: head}"/>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"      
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
     
+    <head th:replace="~{general/fragmentos :: head}"/>
+
+    <body>
         <header th:replace="~{general/fragmentos :: header}"/>
 
-        <footer th:replace="~{general/fragmentos :: footer}"/>
         <aside>
             <h1>Mis Autos</h1>
             <p>Los autos que en mi subconsiente llevo todos los dias..</p>
@@ -16,9 +19,7 @@
             <h2>Martes</h2>
             <img src="https://www.record.com.mx/sites/default/files/articulos/2023/03/30/hennessey_venom_f5_roadster-6.jpg" width="300" alt=""/>
         </section>
-        <footer>
-            Todos los Derechos Reservados TechShop 2025 &COPY;
-        </footer>
 
-    
+        <footer th:replace="~{general/fragmentos :: footer}"/>
+    </body>
 </html>
