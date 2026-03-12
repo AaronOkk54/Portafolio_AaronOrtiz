@@ -1,9 +1,10 @@
 com\example\domain\Categoria.class
 com\example\domain\Usuario.class
 com\example\domain\Rol.class
+com\example\ProjectConfig.class
 com\example\DemoApplication.class
 com\example\repository\CategoriaRepository.class
-com\example\demo\ProjectConfig.class
+com\example\StorageConfig.class
 com\example\domain\Ruta.class
 com\example\service\CategoriaService.class
 com\example\domain\Producto.class
